@@ -6,6 +6,7 @@ A Python project to model a simple coffee shop ordering system, implementing obj
 
 ## Project Structure
 
+
 coffee-shop-challenge/
 ├── Pipfile
 ├── debug.py
@@ -16,7 +17,6 @@ coffee-shop-challenge/
 ├── customer_test.py
 ├── coffee_test.py
 └── order_test.py
-
 
 ## Models
 
