@@ -50,9 +50,9 @@ coffee-shop-challenge/
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:<your-username>/coffee-shop-challenge.git
+   git clone git@github.com:2david-kariuki/coffee-shop-challenge.git
    cd coffee-shop-challenge
-(Remember to replace <your-username> with your actual GitHub username.)
+
 
 Set up your Python environment:
 
