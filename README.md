@@ -1,8 +1,11 @@
+
+
 # Coffee Shop Challenge
 
 A Python project to model a simple coffee shop ordering system, implementing object relationships and aggregate methods.
 
 ## Project Structure
+
 coffee-shop-challenge/
 ├── Pipfile
 ├── debug.py
@@ -14,13 +17,10 @@ coffee-shop-challenge/
 ├── coffee_test.py
 └── order_test.py
 
-markdown
-Copy
-Edit
 
 ## Models
 
-### Customer
+## Customer
 - **Attributes:**
   - `name` (1–15 characters, str)
 - **Methods:**
@@ -28,7 +28,7 @@ Edit
   - `coffees()` - Returns unique list of coffees ordered by the customer.
   - `create_order(coffee, price)` - Creates a new order linked to this customer.
 
-### Coffee
+## Coffee
 - **Attributes:**
   - `name` (at least 3 characters, str, immutable)
 - **Methods:**
@@ -37,7 +37,7 @@ Edit
   - `num_orders()` - Returns total number of orders for this coffee.
   - `average_price()` - Returns the average price of all orders for this coffee.
 
-### Order
+## Order
 - **Attributes:**
   - `customer` (Customer instance)
   - `coffee` (Coffee instance)
@@ -47,22 +47,23 @@ Edit
   - `coffee` - Returns the coffee instance linked to the order.
 
 ## Getting Started
+
 1. Clone the repository:
    ```bash
-   git clone git@github.com:2david-kariuki/coffee-shop-challenge.git
+   git clone git@github.com:<your-username>/coffee-shop-challenge.git
    cd coffee-shop-challenge
+(Remember to replace <your-username> with your actual GitHub username.)
+
 Set up your Python environment:
 
-bash
-Copy
-Edit
+Bash
+
 pipenv install
 pipenv shell
 Run the tests:
 
-bash
-Copy
-Edit
+Bash
+
 pytest tests/
 License
 This project is licensed under the MIT License.
