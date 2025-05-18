@@ -3,7 +3,7 @@ from coffee import Coffee
 from order import Order
 
 def main():
-    print("=== Coffee Shop Debug Demo ===")
+    
 
     # Create customers
     alice = Customer("Alice")
@@ -33,14 +33,6 @@ def main():
     print(f"\nLatte's average price: ${latte.average_price():.2f}")
     print(f"Espresso's order count: {espresso.num_orders()}")
 
-    # Test bonus: most_aficionado
-    aficionado = Customer.most_aficionado(latte)
-    print(f"\nMost aficionado for Latte: {aficionado.name if aficionado else 'None'}")
-
-    # Test empty case for bonus
-    americano = Coffee("Americano")
-    aficionado = Customer.most_aficionado(americano)
-    print(f"Most aficionado for Americano: {aficionado if aficionado else 'None'}")
 
 if __name__ == "__main__":
     main()
